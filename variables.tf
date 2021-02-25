@@ -13,3 +13,10 @@ variable "vsphere_password" {
     default = "VMware1!"
 }
 
+variable "hosts" {
+  default = [
+    "vesxi1.houseofbears.co.uk",
+    "vesxi2.houseofbears.co.uk",
+    "vesxi3.houseofbears.co.uk",
+  ]
+}
